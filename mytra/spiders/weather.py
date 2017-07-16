@@ -1,8 +1,6 @@
 # -*- coding: utf-8 -*-
 import scrapy
 import json
-import os
-import re
 
 class WeatherSpider(scrapy.Spider):
     name = 'weather'
